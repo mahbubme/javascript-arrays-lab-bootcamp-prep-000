@@ -4,6 +4,3 @@ var kittens = ["Milo", "Otis", "Garfield"] //define your array here
 function destructivelyAppendKitten(name) {
   return kittens.push(name);
 }
-
-console.log(destructivelyAppendKitten('cat'));
-console.log(kittens);
