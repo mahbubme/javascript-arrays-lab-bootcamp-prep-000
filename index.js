@@ -33,3 +33,8 @@ function removeLastKitten() {
   return new_array;
 }
 
+function removeFirstKitten() {
+  var new_array = kittens.slice(0, 1);
+  return new_array;
+}
+
